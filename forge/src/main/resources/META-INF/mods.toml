@@ -23,7 +23,7 @@ side = "BOTH" # Side this dependency is applied on - 'BOTH', 'CLIENT' or 'SERVER
 [[dependencies.strawgolem]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19,1.19.2)"
+versionRange = "[1.21.1,)" # Updated to 1.21.1
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.strawgolem]]
@@ -54,3 +54,15 @@ modId = "jade"
 mandatory = false
 versionRange = "*"
 side = "CLIENT"
+[[dependencies.strawgolem]]
+modId = "tlib"
+mandatory = true
+versionRange = "[2.3.0,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.strawgolem]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[3.1.40,)" // Ensure this version of Geckolib is compatible with MC 1.21.1 or update
+ordering = "NONE"
+side = "BOTH"
