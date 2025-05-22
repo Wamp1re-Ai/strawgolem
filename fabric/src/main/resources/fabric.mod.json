@@ -30,14 +30,12 @@
         "strawgolem.fabric.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=0.15.0",
-        "fabric": ">=0.95.0+1.21.1",
-        "minecraft": "1.21.1",
+        "fabricloader": ">=0.14",
+        "fabric": "*",
+        "minecraft": "1.19.2",
         "java": ">=17",
         "geckolib3": "*",
-        "haybale": "*",
-        "tlib": ">=2.3.0",
-        "cloth-config": ">=13.0.0"
+        "haybale": "*"
     },
     "suggests": {
         "modmenu": "*",
@@ -46,3 +44,4 @@
         "animal_feeding_trough": "*"
     }
 }
+  

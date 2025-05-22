@@ -60,6 +60,6 @@ public class ReturnToTetherGoal extends MoveToBlockGoal {
 
     @Override
     public double acceptedDistance() {
-        return 1.5D;
+        return golem.getRandom().nextInt(8);
     }
 }

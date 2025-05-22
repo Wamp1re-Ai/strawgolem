@@ -56,6 +56,7 @@ import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
 import software.bernie.geckolib3.util.GeckoLibUtil;
 
+// TODO : Fix bug - not always walking fully to destination
 public class StrawGolem extends AbstractGolem implements IAnimatable, ICapabilityHaver {
 
     public static final Item REPAIR_ITEM = Registry.ITEM.get(new ResourceLocation(StrawgolemConfig.Lifespan.repairItem.get()));
